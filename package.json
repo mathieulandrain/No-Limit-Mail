@@ -1,0 +1,37 @@
+{
+  "name": "modmailbot",
+  "version": "2.30.1",
+  "description": "",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "watch": "nodemon -w src src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dragory/modmailbot"
+  },
+  "dependencies": {
+    "eris": "^0.11.2",
+    "humanize-duration": "^3.22.0",
+    "ini": "^1.3.5",
+    "json5": "^2.1.3",
+    "knex": "^0.20.15",
+    "knub-command-manager": "^6.1.0",
+    "mime": "^2.4.5",
+    "moment": "^2.25.3",
+    "mv": "^2.1.1",
+    "public-ip": "^4.0.1",
+    "sqlite3": "^4.2.0",
+    "tmp": "^0.1.0",
+    "transliteration": "^2.1.9",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
